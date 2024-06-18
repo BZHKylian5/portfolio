@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+    <head>
+        <title>Informations Backstage</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css" >
+        
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li class="deroule"> 
+                        <img src="img/menu.png" alt="menu">
+                        <ul class="sous">
+                            <li><a href="index.html">Présentation de la série</a></li>
+                            <li><a href="pres_saisons.html">Présentations des saisons</a></li>
+                            <li><a href="detail_saisons_1.html">Detail saisons</a></li>
+                            <li><a href="avis_critique.html">Avis et Critiques</a></li>
+                            <li><a href="backstage.html">Info backstage</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <a href="index.html">
+                <img title="logo" src="img/logo.png" alt="logo" >
+            </a>
+            <div class="div1header">
+                <h1 class="h1blanc">TABAS'KHO</h1>
+                <ul class="ulheader">
+                    <li><a class="pheader" href="index.html">Présentation de la série</a></li>
+                    <li><a class="pheader" href="pres_saisons.html">Présentations des saisons</a></li>
+                    <li><a class="pheader" href="detail_saisons_1.html">Detail saisons</a></li>
+                    <li><a class="pheader" href="avis_critique.html">Avis et Critiques</a></li>
+                    <li><a class="pheader actuel" href="backstage.html">Info backstage</a></li>
+                </ul>
+            </div>
+            <div class="div2header">
+                <img width="90px" height="86px" title="connexion" src="img/connexion.png" alt="connexion">
+                <a class="pheader" href="">Connexion</a>
+            </div>
+        </header>
+        <main class="backstage">
+            <iframe id="backstage-iframe" src="https://www.youtube.com/embed/NLOVyy83Gfo?si=qWg2Fwz7XytJx6xB" title="Interview du réalisateur par Konbini" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+            <nav>
+                <ul id="secondMenu">
+                    <li><a href="#coulisse" class="scroll">Les Coulisses</a></li>
+                    <li><a href="#interview" class="scroll">Les Interviews</a></li>
+                </ul>
+            </nav>
+            <section id="sectCoulisseInterview">
+                <article id="coulisse">
+                    <h1>Les Coulisses</h1>
+                    <figure>
+                        <a href="javascript:void(0);" onclick="showVideoPopup('https://www.youtube.com/watch?v=OMeQMILaRFk')">
+                            <img src="img/minia_Coulisse.jpg" alt="Miniature des coulisses de BlackMirror" title="Miniature des coulisses de BlackMirror">
+                        </a>
+                        <figcaption>Les Coulisses</figcaption>
+                    </figure>
+                    
+                    <figure>
+                        <a href="javascript:void(0);" onclick="showVideoPopup('https://youtu.be/9xG3NuBY-aw?si=yQx6nNfT95GA-Ia5')">
+                            <img src="img/black_mirrorVSréalité.jpg" alt="Miniature BlackMirror VS Réalité" title="BlackMirror VS Réalité">
+                        </a>
+                        <figcaption>Black Mirror VS Réalité</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="javascript:void(0);" onclick="showVideoPopup('https://youtu.be/YfgiOKhqlhA?si=lBao9WP8Id02Vpap')">
+                            <img src="img/minia_playtest.jpg" alt="Miniature des coulisses de Playtest" title="Miniature des colisse de Playtest">
+                        </a>
+                        <figcaption>Playtest</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="javascript:void(0);" onclick="showVideoPopup('https://youtu.be/S85BBpp4liA?si=1OKHcdN2elUoz6Od')">
+                            <img src="img/minia_bandersnatch.jpg" alt="Miniature des coulisses de Bandersnatch" title="Miniature des colisse de Bandersnatch">
+                        </a>
+                        <figcaption>Bandersnatch</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="javascript:void(0);" onclick="showVideoPopup('https://youtu.be/j7NiVwb5DxM?si=heWlJ4L_nDSIkOQd')">
+                            <img src="img/minia_les_coulisses.jpg" alt="Miniature des coulisses avec Aaron Paul" title="Miniature des coulisses avec Aaron Paul">
+                        </a>
+                        <figcaption>Les Coulisses avec Aaron Paul</figcaption>
+                    </figure>
+                    
+                    <figure>
+                        <a href="javascript:void(0);" onclick="showVideoPopup('https://youtu.be/Lmm4Lg87eJA?si=eVhXUSelu5vwFHqc')">
+                            <img src="img/minia_Nosedive.jpg" alt="Miniature des coulisse de Nosedive" title="Miniature des coulisse de Nosedive">
+                        </a>
+                        <figcaption>Nosedive</figcaption>
+                    </figure>
+                </article>
+                <article id="interview"> 
+                    <h1>Les Interviews</h1>
+                    <figure>
+                        <a href="javascript:void(0);" onclick="showVideoPopup('https://youtu.be/3xaZ8vJEQnA?si=241v3qEN9dumKgPG')">
+                            <img src="img/minia_saion6_surpris_acteur.jpg" alt="Miniature Saison 6 a surpris les acteurs" title="Saison 6 a surpris les acteurs">
+                        </a>
+                        <figcaption>Black Mirror saison 6 a aussi surpris les acteurs !</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="javascript:void(0);" onclick="showVideoPopup('https://youtu.be/9fnYJcEW0J8?si=J1niBZDE2oNjqBIT')">
+                            <img src="img/interview_gugu-mbatha-raw.jpg" alt="Miniature de l'interview de Gugu Mbatha-Raw" title="Miniature de l'interview de Gugu Mbatha-Raw">
+                        </a>
+                        <figcaption>Black Mirror saison 3 sur Netflix : interview exclusive de Gugu Mbatha-Raw</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="javascript:void(0);" onclick="showVideoPopup('https://youtu.be/qhQw5G1hoq0?si=IN3jzJwYCoG9pgNi')">
+                            <img src="img/interview_Salma-Hayek&&Annie-Murphy.jpg" alt="Miniature de l'interview de Salma Hayek et de Annie Murphy" title="Miniature de l'interview de Salma Hayek et de Annie Murphy">
+                        </a>
+                        <figcaption>The Annie Murphy and Salma Hayek Interview</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="javascript:void(0);" onclick="showVideoPopup('https://youtu.be/2EdoAqfDm6w?si=G8OjpAFLusGNA9Pe')">
+                            <img src="img/minia_interview_bandersnatch.jpg" alt="Miniature de l'interview de Will Poulter et de Fionn Whitehead" title="Miniature de l'interview de Will Poulter et de Fionn Whitehead">
+                        </a>
+                        <figcaption>Stars Will Poulter and Fionn Whitehead on ‘Black Mirror: Bandersnatch</figcaption>
+                    </figure>
+                </article>
+                <div id="videoPopup">
+                    <div>
+                        <img onclick="closeVideoPopup()" src="img/fermer.png" alt="croix permetant de fermer la popup" title="croix permetant de fermer la popup">
+                        <iframe allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="image-centre">
+                <img src="img/logo.png" alt="Logo tabas'KHO" width="191px" height="191px">
+            </div>
+            <div>
+                <p>Site web réalisé par l’équipe A11 <br>Nous contacter :</p>
+                <p></p>
+                <table>
+                    <tr>
+                        <th>Liam</th>
+                        <th>Piel</th>
+                        <th>Matthieu</th>
+                        <th>Kylian</th>
+                        <th>Thibault</th>
+                    </tr>
+                    <tr>
+                        <th><a href=""> <img src="img/email-svgrepo-com.png" width="45px" height="45px"> </a ></th>
+                        <th><a href=""> <img src="img/email-svgrepo-com.png" width="45px" height="45px"> </a ></th>
+                        <th><a href=""> <img src="img/email-svgrepo-com.png" width="45px" height="45px"> </a ></th>
+                        <th><a href=""> <img src="img/email-svgrepo-com.png" width="45px" height="45px"> </a ></th>
+                        <th><a href=""> <img src="img/email-svgrepo-com.png" width="45px" height="45px"> </a ></th>
+                    </tr>
+                </table>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html> 

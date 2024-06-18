@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^tabaskho\.kylian\-houedec\.fr$
+RewriteRule ^/?$ "https\:\/\/www\.tabaskho\.kylian\-houedec\.fr\/" [R=301,L]
+

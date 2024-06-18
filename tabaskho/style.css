@@ -1,0 +1,1488 @@
+html{
+    height: 400px;
+}
+body{
+    margin: 0;
+    background-color: #f2f2f2;
+}
+.detailsaison{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    color: #091740;
+    display: flex;
+    height: 172px;
+    background-color: #091740;
+    justify-content: space-around;
+}
+.div1header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.div2header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.ulheader{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+.ulheader>li{
+    background-color: #091740;
+    padding: 0;
+    margin: 0;
+    font-size: auto;
+
+}
+.h1blanc{
+    margin-bottom: 0;
+    font-size: 3.5em;
+    font-family: "Coolvetica";
+    color: #f2f2f2;
+    text-align: center;
+}
+.h1bleue{
+    margin-bottom: 0;
+    font-size: 3.5em;
+    font-family: "Coolvetica";
+    color: #091740;
+    text-align: center;
+}
+.h2bleue{
+    font-size: 3em;
+    font-family: "Coolvetica";
+    color: #091740;
+    margin: 0;
+}
+.h2blanc{
+    font-size: 3em;
+    font-family: "Coolvetica";
+    color: #f2f2f2;
+    margin: 0;
+}
+h3{
+    font-size: 2em;
+    font-family: "Coolvetica";
+    color: #091740;
+    margin: 0;
+}
+h4{
+    text-align: center;
+    font-family: "Coolvetica";
+    color: #091740;
+  }
+  
+h5,article,p{
+    font-family: "exo";
+    color: #091740;
+    font-weight: bold;
+}
+
+a{
+    color: #091740;
+    text-decoration: none;
+}
+.pheader{
+    border-radius: 5px 5px 0px 0px;
+    font-family: "Exo";
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #868EA6;
+    text-align: center;
+    margin:0em 2em;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.pheader:hover{
+    background-color: #f2f2f2;
+}
+.actuel{
+    background-color: #f2f2f2;
+}
+.articleflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+}
+.deroule{
+    display: none;
+    background-color: #091740;
+    padding: 0;
+}
+.sous{
+    display: none;
+    flex-direction: column;
+    margin: 0;
+    font-size: 1.75vw;
+    align-items: flex-start;
+    background-color: #868EA6;
+    position:absolute;
+    left: 0px;
+    top: 172px;
+    z-index: 300;
+}
+.sous li a{
+    color: #F2F2F2;
+}
+nav:hover .sous{
+    display: flex;
+}
+nav ul {
+    padding: 0;
+}
+nav{
+    height: 172px;
+}
+.wrap{
+    text-align: center;
+    flex-wrap: wrap;
+}
+.articleflex>img{
+    width: 60%;
+}
+article{
+    margin: 10px;
+}
+
+.articledegrade{
+    border-radius: 20px;
+    background: linear-gradient(#091740,80%,#394A97);
+    margin: 3em 0;
+    padding: 3em;
+}
+
+.pbleue{
+    color: #091740;
+    font-family: "Exo";
+    text-align: center;
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+.pblanc{
+    color: #f2f2f2;
+    font-family: "Exo";
+    text-align: start;
+    font-size: 2vw;
+    font-weight: 700;
+}
+.min{
+    font-size: 1.5vw;
+    
+}
+table{
+    color: #091740;
+    font-family: "Exo";
+    font-weight: bold;
+}
+.divnote{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+.etoile{
+    width: 3vw;
+    height: 3vw;
+}
+
+.divnote>p{
+    font-family: "Coolvetica";
+    font-size: 2vw;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #868EA6;
+}
+
+.p_min{
+    color: #868EA6;
+    font-family: "Exo";
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+.index_video{
+    border-radius: 20px;
+    width: 40vw;
+    height: auto;
+    margin-top: 3em;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    margin:32px auto;
+}
+
+li{
+    background-color: #394A97;
+    padding: 1em 2em;
+    border-radius: 10px;
+    color: #f2f2f2;
+    font-family: "Exo";
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+.block-total{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.block-total>div{
+    background-color: #f2f2f2;
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 1em;
+}
+.pblock{
+    color: #091740;
+    font-family: "Exo";
+    font-weight: bold;
+    margin: 16px 30px;
+    text-align: center;
+}
+figure>img{
+    width: 15vw;
+}
+
+
+
+/* css details_saison */
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+main {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    display: inline-block;
+    border-radius: 10px;
+}
+
+p {
+    font-family: Exo, Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+.changement_saison {
+    margin: 1em auto;
+}
+
+.changement_saison a {
+    background-color: #868EA6;
+    color: black;
+    display: inline-block;
+    width: 10em;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0.5em;
+    font-family: Exo, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.changement_saison a:hover {
+    background-color: #091740;
+    color: white;
+}
+
+.changement_saison p {
+    background-color: #C0C0C0;
+    color: #7F7F7F;
+    display: inline-block;
+    width: 10em;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0.5em;
+}
+
+
+/* Section Acteurs */
+
+#acteur div div {
+    background-color: #868EA6;
+    width: 30%;
+    display: inline-flex;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    align-items: center;
+
+}
+
+#acteur p {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#acteur img {
+    height: 100px;
+    border-radius: 50px;
+}
+
+
+/* Bande anonce */
+
+.trailer {
+    display: block;
+    margin: 50px auto;
+    width: 80%;
+    border-radius: 20px;
+}
+
+
+/* Section Extraits */
+
+#extraits section {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+#extraits div {
+    position: relative;
+}
+
+#extraits section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 20px;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #F2F2F2);
+}
+
+#extraits section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #F2F2F2);
+}
+
+#extraits img {
+    height: 300px;
+    margin: 20px;
+}
+
+
+/* Section Photos */
+
+#photos section {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+#photos img {
+    margin: 20px;
+    height: 400px;
+}
+
+#photos div {
+    position: relative;
+}
+
+#photos section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 20px;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #F2F2F2);
+}
+
+#photos section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #F2F2F2);
+}
+
+
+/* Section Episode */
+
+#episodes section {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+#episodes div div {
+    display: inline-block;
+    width: 300px;
+    background-color: #868EA6;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+#episodes img {
+    width: 100%;
+}
+
+#episodes div div:hover {
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 10px 10px 10px #070E26;
+}
+
+#episodes div div div:hover {
+    box-shadow: none;
+    right: 0;
+    bottom: 0;
+}
+
+#episodes p {
+    height: 250px;
+    overflow-y: scroll;
+    margin: 0;
+    padding: 20px 0;
+}
+
+#episodes > div,
+#episodes div div div {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#episodes section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 20px;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #F2F2F2);
+    z-index: 1;
+}
+
+#episodes section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #F2F2F2);
+}
+
+#episodes p::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), #868EA6);
+}
+
+#episodes p::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #868EA6);
+}
+
+
+/* Affichage sur mobile */
+
+@media screen and (max-width: 1400px) {
+
+    #acteur div div {
+        width: 45%;
+    }
+
+    .trailer {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 960px) {
+    
+    #acteur section {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    #acteur div div {
+        flex-grow: 0;
+        flex-shrink: 0;
+        width: 400px;
+        margin: 0 20px;
+    }
+
+    #acteur > div {
+        position: relative;
+    }
+    
+    #acteur section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 20px;
+        background: linear-gradient(to left, rgba(255, 255, 255, 0), #F2F2F2);
+    }
+    
+    #acteur section::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 20px;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), #F2F2F2);
+    }    
+
+    .trailer {
+        width: 100%;
+    }
+
+    #resume {
+        order: 98;
+    }
+
+    .changement_saison_bas {
+        order: 99;
+    }
+}
+
+/* avis critique */
+
+.commentNonVerif {
+  padding-bottom: 10px;
+}
+
+#commentList {
+  display: flex;
+  flex-direction: column;
+}
+
+#commentList li {
+  list-style-type:disc;
+  background-color: unset;
+  padding: unset;
+  border-radius: unset;
+  color: unset;
+  font-family: unset;
+  font-weight: unset;
+  font-size: unset;
+  margin: unset;
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;}
+
+.Fblanc{
+   background-color: #394A97;
+   color: #F2F2F2;
+   font-size: 2vw;
+   text-align: center;
+   margin:  0.9vw 10vw;
+   border-radius: 11px;
+}
+  .p1{
+    font-family: "IniSans";
+    font-size: 3vw;
+    margin: 0;
+    padding-top: 0;
+    padding-right: 0.5em;
+    
+  }
+  .user:hover{color: #F2F2F2;
+    background-color: #091740;
+    padding: 0.5em;
+  border-radius: 5px;}
+.user{color: #F2F2F2;}
+
+  
+  main{
+    background-color: #f2F2F2;
+    
+  }
+  
+  .presse_spectateur{
+    display: flex;
+    justify-content: space-around;
+  }
+  .presse {
+    width: 40%;
+    padding: 0.5em;
+    
+    
+  }
+  .presse div{
+    padding: 0.5em;
+    background-color: #868EA6;
+    border-radius:11px ;
+    overflow-y: scroll;
+    height: 30vw;
+  
+    
+  } 
+  .bouton{
+    background-color:#7CB4E8 ;
+    color: #F2F2F2;
+    padding: 0.5em;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "IniSans";
+    
+    
+  }
+  .bouton:hover{
+    background-color: #091740;
+    color: #F2F2F2;
+  }
+  .place{
+    display:flex;
+    justify-content: flex-end;
+    height: 50px;
+  
+  }
+  .spectateur{
+    
+    width: 40%;
+    padding: 0.5em;
+    
+  }
+  .spectateur div{
+  background-color: #868EA6;
+  border-radius:11px ;
+  padding: 0.5em;
+  
+  }
+  .spectateur div div {
+    display : flex;
+    justify-content: center;;
+  }
+  .avis{display: flex;}
+  
+  .test {
+    height: 250px;
+    width:100% ;
+  }
+  .test img{
+    height: 100%;
+    width: 100%;
+  }
+  .avis p {line-height: 2.8em;}
+  
+  
+  .partie2{
+    background: linear-gradient(#394A97, #091740);
+    display: flex;
+    
+  }
+  .partie2 div{
+    width: 50%;
+    padding: 1em;
+  }
+  .partie2 div div{
+    display: flex;
+    padding :0.5em;
+  }
+  .Ellipse{
+    width: 10vw;
+    height: 10vw;
+  }
+  .partie2 div div p a{
+    position:relative;
+    top: 1.5em;
+    left:0.3em;
+    color: F2F2F2;
+    text-decoration: underline;
+  }
+  .commentNonVerif{
+    background-color: #868EA6;
+    display: flex;
+  }
+  .commentNonVerif div {
+    width: 50%;
+    display: block;
+  }
+  .name{
+    padding: 0 56px 0 0; 
+  }
+  .add{
+    margin: 10px 0 0 0;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** PRESENTATIONS SAISONS **/
+/*librairie*/
+.lineaire-simple {
+    background: linear-gradient(#394A97, #091740);
+}
+
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Coolvetica";
+  src: url('./Polices_woff/coolvetica_woff/coolveticarg.woff') format('woff'),
+       url('./Polices_woff/coolvetica_woff/coolveticarg.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "Exo";
+  src: url('./Polices_woff/Exo_woff/Exo-VariableFont_wght.woff') format('woff'),
+       url('./Polices_woff/Exo_woff/Exo-VariableFont_wght.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "IniSans";
+  src: url('./Polices_woff/ini-sans_woff/IniSans.woff') format('woff'),
+       url('./Polices_woff/ini-sans_woff/IniSans.woff2') format('woff2');
+}
+
+/*** MAIN ***/
+
+.main_pres_s {
+    /*old*/
+    margin: unset;
+    display: unset;
+    flex-direction: unset;
+
+    margin: 0;
+    background-color: #F2F2F2;
+}
+
+.art_saisons {
+    /*old*/
+    margin: unset;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: linear-gradient(#868EA6, #091740);
+    color: white;
+    padding: 20px 20px 20px 20px;
+    }
+
+.art_transi{
+  background: linear-gradient(#091740, #868EA6)
+}
+
+.art_saisons h2 {
+  font-family: "Coolvetica";
+  color: black;
+  font-weight: lighter;
+  font-size: 3em;
+  margin: 0;
+  text-align: center;
+}
+
+.art_saisons h3 {
+  font-weight: bolder;
+}
+
+.img_eps_res {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: 10fr 3fr;
+  justify-content: space-around;
+  font-family: 'Exo';
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.img_eps {
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  background: #F2F2F2;
+  color: black;
+  padding: 20px;
+  border-radius: 15px;/
+}
+
+.img_eps img {
+    /*old*/
+    display: unset;
+    border-radius: unset;
+
+    width: 90%;
+    justify-self: center;
+    height: max-content;
+    border-radius: 15px;
+}
+
+.img_eps ul {
+    /*old*/
+    display: unset;
+    flex-direction: unset;
+    flex-wrap: unset;
+    justify-content: unset;
+    list-style-type: unset;
+    margin: unset;
+
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1.8vw;
+}
+
+.img_eps ul li {
+    /*old*/
+    background-color: unset;
+    padding: unset;
+    border-radius: unset;
+    color: unset;
+    font-family: unset;
+    font-weight: unset;
+    font-size: unset;
+    margin: unset;
+
+    margin-left: 50px;
+}
+
+.Title_eps{
+    margin-left: 50px;
+}
+
+.img_eps ul li p {
+  margin-left: 30px; /* Ajustez la valeur */
+}
+
+
+.img_eps_res h3 {
+    /*old*/
+    font-size: unset;
+
+    font-size: 3vw;
+
+  text-decoration: underline;
+}
+
+.res {
+  box-sizing: border-box;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 50px 50px 50px;
+  background-color: #F2F2F2;
+  color: black;
+  border-radius: 15px;
+  font-size: 1.5vw;
+}
+
+.res h4{
+  text-decoration: underline;
+  margin: 0px;
+}
+
+#popup-content > h4 {
+  text-decoration: underline;
+  margin: 0px;
+}
+
+.res button {
+  background-color: #091740;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1.5vw;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.res button:hover {
+  background-color: #394A97;
+  transform: scale(1.05); /* Augmente la taille du bouton */
+}
+
+
+.actors {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px;
+  background-color: #F2F2F2;
+  border-radius: 15px;
+  justify-content: space-around;
+  color: black;
+  font-family: 'Exo';
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+.actors img {
+  width: 50%;
+}
+
+/* Popup container */
+.popup1, .popup2 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+
+/* Style pour le fond semi-transparent du popup */
+#popup-background, #popup-background2 {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Style pour le popup lui-même */
+#popup-content, #popup-content2 {
+  display: none;
+  position: fixed;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transition: all 0.5s;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /*animation*/
+  transition: opacity 0.3s, transform 0.3s;
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.8);
+}
+
+#popup-content, #popup-content2 h4{
+    font-size: 1.5vw;
+}
+  
+#popup-content.show, #popup-content2.show {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+@media screen and (max-width: 980px){
+  #popup-content, #popup-content2 {
+    overflow-y: scroll;
+    width: 80%;
+  }
+}
+
+
+/* Style pour le bouton de fermeture */
+#close-button, #close-button2 {
+  position: absolute;
+  font-size: 2vw;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+#close-button:hover, #close-button2:hover {
+  transform: scale(0.90); /* Réduit la taille du bouton */
+}
+
+
+@media screen and (max-width: 1024px){
+
+  .res h3{
+    font-size: 3vw;
+  }
+
+  .res h4{
+    font-size: 2.5vw;
+  }
+
+  .res p{
+    font-size: 2.5vw;
+  }
+
+  #popup-content, #popup-content2 h3{
+    font-size: 4vw;
+  }
+
+  #popup-content, #popup-content2 h4{
+    font-size: 3vw;
+  }
+
+  #popup-content, #popup-content2 p{
+    font-size: 3vw;
+  }
+    
+  #popup-content.show, #popup-content2.show {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .img_eps_res {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .res {
+    margin-top: 20px;
+    font-size: 2vw;
+  }
+
+  .img_eps{
+    display: flex;
+    /*Centrer les objets*/
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .img_eps img {
+    width: 60%;
+    justify-self: center;
+    height: max-content;
+    border-radius: 15px;
+  }
+
+  .img_eps ul {
+    /*old*/
+    display: unset;
+    flex-direction: unset;
+    flex-wrap: unset;
+    justify-content: unset;
+    list-style-type: unset;
+    margin: unset;
+
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    font-size: 2.2vw;
+  }
+
+  /*.img_eps ul {
+
+    font-size: 0.8em;
+  }
+  */
+
+}  @media screen and (max-width: 1050px) {
+  /*main*/
+  .presse_spectateur{
+    display: block;
+  }
+  .presse{
+    width: 95%;
+  }
+  .spectateur{
+    width: 95%;
+  }
+  .partie2{
+    display : block;
+  }
+  .partie2 div {
+    width: 95%;
+  }
+  .pblanc{
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .res {
+    padding: 10px 40px 40px 40px;
+  }
+
+  .art_saisons h2 {
+    font-size: 2.7em;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .res {
+    padding: 5px 30px 30px 30px;
+  }
+
+  .art_saisons h2 {
+    font-size: 2em;
+  }
+
+}
+/* FIN PRESENTATION SAISON */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer{
+    justify-content: center;
+    background-color: #091740;
+    display: flex;
+    height: 20%;
+  }
+  .image-centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer p{
+    color: #F2F2F2;
+  }
+  footer div table th{
+    padding:0 5vw;
+    color: #F2F2F2;
+  }
+  footer div table{
+    justify-content: center;
+    display: flex;
+    bottom: 10px;
+  }
+  .footer-P{
+    margin-top: 2em;
+    font-family: "Exo";
+    background-color: #091740;
+  }
+  .star {
+    font-size: 24px;
+    color: gray;
+    cursor: pointer;
+  }
+
+  .star.selected {
+    color: gold;
+  }
+  @media screen and (max-width: 1050px) {
+    footer div table th{
+        padding:0 1.5vw;
+      }
+      .footer-P{
+        margin-top: 1em;
+      }
+      .image-centre img{
+        width: 20vw;
+        height: 20vw;
+      }
+  }
+
+
+
+@font-face {
+    font-family: "Coolvetica";
+    src: url('./Polices_woff/coolvetica_woff/coolveticarg.woff') format('woff'),
+         url('./Polices_woff/coolvetica_woff/coolveticarg.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "Exo";
+    src: url('./Polices_woff/Exo_woff/Exo-VariableFont_wght.woff') format('woff'),
+         url('./Polices_woff/Exo_woff/Exo-VariableFont_wght.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "IniSans";
+    src: url('./Polices_woff/ini-sans_woff/IniSans.woff') format('woff'),
+         url('./Polices_woff/ini-sans_woff/IniSans.woff2') format('woff2');
+}
+@media (max-width:1050px){
+    .pheader{
+        display: none;
+    }
+    .div1header{
+        display: none;
+    }
+    header{
+        align-items: center;
+    }
+    .deroule{
+        display: flex;
+    }
+}
+
+
+/* backstage */
+
+main.backstage {
+    display: unset;
+}
+
+main.backstage nav {
+    height: unset;
+    margin-top: 4vw;
+}
+
+#sectCoulisseInterview > article > h1{
+    font-family: Coolvetica, Arial, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 0;
+    font-size: 5vw;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+#backstage-iframe {
+    margin:16px 0;
+    width: 100%;
+    height:45vw;
+}
+main > #sectCoulisseInterview > article{
+    text-align: center;
+    color: white;
+    background-color: #070e26;
+    margin:0 25px;
+    border-radius: 20px;
+}
+main > #sectCoulisseInterview > article > h1{
+    text-decoration: underline;
+}
+#sectCoulisseInterview > article > figure{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+#sectCoulisseInterview > article + article{
+    background-color: #f2f2f2;
+    color: #070e26;
+    margin-bottom: 5em;
+}
+#sectCoulisseInterview > article + article > h1{
+    color: #070e26;
+}
+
+main nav > #secondMenu > li {
+    padding: unset;
+    background-color: unset;
+    color: hsl(0, 0%, 95%);
+    margin: 0 2%;
+    white-space: nowrap;
+}
+main nav > #secondMenu > li > a   {
+    border-radius: 15px;
+    font-size: 3vw; 
+    background-color: #070e26;
+    color: hsl(0, 0%, 95%);
+    padding: 1em 2em;
+}
+main > #sectCoulisseInterview > article > figure img{
+    width : 35vw;
+    display: flex;
+    
+}
+
+main nav > #secondMenu{
+    display: flex;
+    font-family: "Exo";
+    font-weight: bold;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#videoPopup {
+    display: none;
+    position: fixed;
+    border-radius: 20px;
+    border: solid black 2px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #070e26b4;
+    padding: 20px;
+    
+}
+#videoPopup > div > iframe{
+    width: 65vw;
+    height: 35vw;
+    border-radius: 20px;
+}
+#videoPopup img{
+    width:35px;
+    right: 0;
+}
+
+#videoPopup div{  
+    display:flex;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 600px){
+
+    main > #sectCoulisseInterview > article > figure img{
+        width : 20em;
+        display: flex;
+        
+    }
+    main > #sectCoulisseInterview {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main > #sectCoulisseInterview > #coulisse {
+        order: 2;
+        
+        border-radius: 0;
+        margin: 0;
+        margin-bottom: 2em;
+    }
+
+    main > #sectCoulisseInterview > #interview {
+        order: 1;
+        margin-bottom: 0;
+        
+    }
+
+    #sectCoulisseInterview > article > h1{
+        font-size: 35px;
+        margin: 5px 0;
+    }
+}
+@media screen and (max-width: 1050px) {
+  /*main*/
+  .presse_spectateur{
+    display: block;
+  }
+  .presse{
+    width: 95%;
+  }
+  .spectateur{
+    width: 95%;
+  }
+  .partie2{
+    display : block;
+  }
+  .partie2 div {
+    width: 95%;
+  }
+}

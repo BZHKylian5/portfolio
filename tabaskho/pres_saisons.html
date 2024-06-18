@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Presentation serie</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li class="deroule"> 
+                        <img src="img/menu.png" alt="menu">
+                        <ul class="sous">
+                            <li><a href="index.html">Présentation de la série</a></li>
+                            <li><a href="pres_saisons.html">Présentations des saisons</a></li>
+                            <li><a href="detail_saisons_1.html">Detail saisons</a></li>
+                            <li><a href="avis_critique.html">Avis et Critiques</a></li>
+                            <li><a href="backstage.html">Info backstage</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <a href="index.html">
+                <img title="logo" src="img/logo.png" alt="logo" >
+            </a>
+            <div class="div1header">
+                <h1 class="h1blanc">TABAS'KHO</h1>
+                <ul class="ulheader">
+                    <li><a class="pheader" href="index.html">Présentation de la série</a></li>
+                    <li><a class="pheader actuel" href="pres_saisons.html">Présentations des saisons</a></li>
+                    <li><a class="pheader" href="detail_saisons_1.html">Detail saisons</a></li>
+                    <li><a class="pheader" href="avis_critique.html">Avis et Critiques</a></li>
+                    <li><a class="pheader" href="backstage.html">Info backstage</a></li>
+                </ul>
+            </div>
+            <div class="div2header">
+                <img width="90px" height="86px" title="connexion" src="img/connexion.png" alt="connexion">
+                <a class="pheader" href="">Connexion</a>
+            </div>
+        </header>
+
+    <main class="main_pres_s">
+        <article class="art_saisons">
+            <h2>Saison 1</h2>
+            <div class="img_eps_res">
+                <div class="img_eps">
+                        <img src="img/saisons/saison1.jpg" alt="saison1_aff">
+                        <ul>
+                            <li >
+                                <h3>Épisode 1 :</h3>
+                                <p>L'Hymne national <br>(The National Anthem)</p>
+                            </li>
+                            <li>
+                                <h3>Épisode 2 :</h3>
+                                <p>15 millions de mérites <br>(Fifteen Million Merits)</p>
+                            </li>
+                            <li>
+                                <h3>Épisode 3 :</h3>
+                                <p>Toute la haine de l'univers <br>(The Entire History of You)</p>
+                            </li>
+                        </ul>
+                </div>
+                <div class="res">
+                    <h3>Résumé :</h3>
+                    <div>
+                        <h4>Épisode 1 :</h4>
+                        <p>Le Premier ministre britannique est confronté à un dilemme choquant lorsque la princesse Susannah est kidnappée, et la demande de rançon implique un acte très humiliant diffusé en direct.</p>
+                        
+                        <h4>Épisode 2 :</h4>
+                        <p>Dans un monde où les gens pédalent constamment pour générer de l'énergie, Bing découvre...</p>
+                    </div>
+                    <button onclick="afficherPopup()">Voir Plus</button>
+
+                    <!-- Fond semi-transparent du popup -->
+                    <div id="popup-background"></div>
+
+                    <!-- Contenu du popup -->
+                    <div id="popup-content">
+                        <span id="close-button" onclick="fermerPopup()">✖️</span>
+                        <h3>Résumé :</h3>
+                        <h4>Épisode 1 :</h4>
+                        <p>
+                            Le Premier ministre britannique est confronté à un dilemme choquant lorsque la princesse Susannah est kidnappée, et la demande de rançon implique un acte très humiliant diffusé en direct.
+                        </p>
+                        <h4>Épisode 2 :</h4>
+                        <p>
+                            Dans un monde où les gens pédalent constamment pour générer de l'énergie, Bing découvre une opportunité de se libérer de cette routine monotone, mais cela l'amène à un autre type de réalité artificielle.
+                        </p>
+                        <h4>Épisode 3 :</h4>
+                        <p>
+                            Les gens ont des implants qui enregistrent toutes leurs expériences visuelles et auditives. Liam, obsédé par les souvenirs de sa femme, découvre des vérités dérangeantes qui mettent en péril sa vie personnelle.
+                        </p>
+                    </div>
+
+                    <script>
+                        // Fonction pour afficher le popup
+                        function afficherPopup() {
+                            document.getElementById('popup-background').style.display = 'block';
+                            document.getElementById('popup-content').style.display = 'block';
+                            setTimeout(() => {
+                                document.getElementById('popup-content').classList.add('show');
+                            }, 0);
+                        }
+
+                        // Fonction pour fermer le popup
+                        function fermerPopup() {
+                            document.getElementById('popup-background').style.display = 'none';
+                            document.getElementById('popup-content').style.display = 'none';
+                        }
+                    </script>
+                </div>
+            </div>
+        
+            <div class="actors">
+                <div class="actor">
+                    <img src="img/acteurs/s1_acteur1.webp" alt="Actor 1">
+                    <p>Sophie Kennedy Klark</p>
+                </div>
+                <div class="actor">
+                    <img src="img/acteurs/s1_acteur2.webp" alt="Actor 2">
+                    <p>Daniel Kaluuya</p>
+                </div>
+                <div class="actor">
+                    <img src="img/acteurs/s1_acteur3.webp" alt="Actor 3">
+                    <p>Toby Kebbell</p>
+                </div>
+                <div class="actor">
+                    <img src="img/acteurs/s1_acteur4.webp" alt="Actor 4">
+                    <p>Jessica Brown Findlay</p>
+                </div>
+            </div>
+        </article>
+        <!--Transition entre les blocs-->
+        <div class="art_transi">
+            <section>
+                <br>
+            </section>
+        </div>
+
+        <article class="art_saisons">
+            <h2>Saison 2</h2>
+            <div class="img_eps_res">
+                <div class="img_eps">
+                        <img src="img/saisons/saison2.jpg" alt="saison1_aff">
+                        <ul>
+                            <li>
+                                <h3>Épisode 1 :</h3>
+                                <p>À vos souhaits <br>(Be Right Back)</p>
+                            </li>
+                            <li>
+                                <h3>Épisode 2 :</h3>
+                                <p>L'ours blanc <br>(White Bear)</p>
+                            </li>
+                            <li>
+                                <h3>Épisode 3 :</h3>
+                                <p>L'effet Waldo <br>(The Waldo Moment)</p>
+                            </li>
+                            <li>
+                                <h3>Épisode 4 :</h3>
+                                <p>Noël blanc <br>(White Christmas)</p>
+                            </li>
+                        </ul>
+                </div>
+                <div class="res">
+                    <h3>Résumé :</h3>
+                    <div>
+                        <h4>Épisode 1 :</h4>
+                        <p>Après la mort de son petit ami Ash, Martha utilise une technologie qui lui permet de communiquer avec une version virtuelle de lui, basée sur ses médias sociaux et ses messages.</p>
+                        
+                        <h4>Épisode 2 :</h4>
+                        <p>Une femme se réveille sans se souvenir de son passé et découvre un monde étrange où les gens filment constamment tout ce qui se passe. Elle est poursuivie par des mystérieux poursuivants...</p>
+                    </div>
+                    <button onclick="afficherPopup2()">Voir Plus</button>
+
+                    <!-- Fond semi-transparent du popup -->
+                    <div id="popup-background2"></div>
+
+                    <!-- Contenu du popup -->
+                    <div id="popup-content2">
+                        <span id="close-button2" onclick="fermerPopup2()">✖️</span>
+                        <h3>Résumé :</h3>
+                        <h4>Épisode 1 :</h4>
+                        <p>
+                            Après la mort de son petit ami Ash, Martha utilise une technologie qui lui permet de communiquer avec une version virtuelle de lui, basée sur ses médias sociaux et ses messages.
+                        </p>
+                        <h4>Épisode 2 :</h4>
+                        <p>
+                            Une femme se réveille sans se souvenir de son passé et découvre un monde étrange où les gens filment constamment tout ce qui se passe. Elle est poursuivie par des mystérieux poursuivants.
+                        </p>
+                        <h4>Épisode 3 :</h4>
+                        <p>
+                            Jamie, un comédien en costume de peluche, devient une sensation politique lorsqu'il se présente à une élection, utilisant son personnage Waldo pour exprimer des opinions politiques satiriques.
+                        </p>
+                        <h4>Épisode 4 :</h4>
+                        <p>
+                            Deux hommes sont assignés à des postes isolés, et ils partagent leurs histoires passées, révélant des twists inattendus et des conséquences choquantes de la technologie avancée.
+                        </p>
+                    </div>
+
+                    <script>
+                        // Fonction pour afficher le popup
+                        function afficherPopup2() {
+                            document.getElementById('popup-background2').style.display = 'block';
+                            document.getElementById('popup-content2').style.display = 'block';
+                            setTimeout(() => {
+                                document.getElementById('popup-content2').classList.add('show');
+                            }, 0);
+                        }
+
+                        // Fonction pour fermer le popup
+                        function fermerPopup2() {
+                            document.getElementById('popup-background2').style.display = 'none';
+                            document.getElementById('popup-content2').classList.remove('show');
+                        }
+                    </script>
+                </div>
+            </div>
+        
+            <div class="actors">
+                <div class="actor">
+                    <img src="img/acteurs/s2_acteur1.webp" alt="Actor 1">
+                    <p>Lenora Crichlow</p>
+                </div>
+                <div class="actor">
+                    <img src="img/acteurs/s2_acteur2.webp" alt="Actor 2">
+                    <p>Domhnall Gleeson</p>
+                </div>
+                <div class="actor">
+                    <img src="img/acteurs/s2_acteur3.webp" alt="Actor 3">
+                    <p>Hayley Atwell</p>
+                </div>
+                <div class="actor">
+                    <img src="img/acteurs/s2_acteur4.webp" alt="Actor 4">
+                    <p>Jon Hamm</p>
+                </div>
+            </div>
+        </article>
+
+    </main>
+    <footer>
+        <div class="image-centre">
+            <img src="img/logo.png" alt="Logo tabas'KHO" width="191px" height="191px">
+        </div>
+        <div>
+            <p>Site web réalisé par l’équipe A11 <br>Nous contacter :</p>
+            <p></p>
+            <table>
+                <tr>
+                    <th>Liam</th>
+                    <th>Piel</th>
+                    <th>Matthieu</th>
+                    <th>Kylian</th>
+                    <th>Thibault</th>
+                </tr>
+                <tr>
+                    <th><a href=""> <img src="img/email-svgrepo-com.webp" width="45px" height="45px"> </a ></th>
+                    <th><a href=""> <img src="img/email-svgrepo-com.webp" width="45px" height="45px"> </a ></th>
+                    <th><a href=""> <img src="img/email-svgrepo-com.webp" width="45px" height="45px"> </a ></th>
+                    <th><a href=""> <img src="img/email-svgrepo-com.webp" width="45px" height="45px"> </a ></th>
+                    <th><a href=""> <img src="img/email-svgrepo-com.webp" width="45px" height="45px"> </a ></th>
+                </tr>
+            </table>
+        </div>
+    </footer>
+</body>
+</html>
